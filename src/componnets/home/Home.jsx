@@ -1,8 +1,11 @@
 
 import React, { useRef } from 'react';
 import "./home.scss"
-
-
+import About from '../about/About'
+import Contact from '../contact/Contact'
+import Destinations from '../destinations/Destinations'
+import TravelStyles from '../travelStyles/TravelStyles'
+import Experiences from '../experiences/Experiences'
 
 function Home() {
     const sectionRefs = {
@@ -35,19 +38,19 @@ function Home() {
           </ul>
         </nav>
         <div ref={sectionRefs.about} className="section about">
-          ABOUT US
+          <About />
         </div>
         <div ref={sectionRefs.destinations} className="section destinations">
-          DESTINATIONS
+          <Destinations />
         </div>
         <div ref={sectionRefs.experiences} className="section experiences">
-          EXPERIENCES
+          <Experiences />
         </div>
         <div ref={sectionRefs.travelStyles} className="section travelStyles">
-          TRAVEL STYLES
+          <TravelStyles />
         </div>
         <div ref={sectionRefs.contact} className="section contact">
-          CONTACT US
+          <Contact />
         </div>
       </div>
     );

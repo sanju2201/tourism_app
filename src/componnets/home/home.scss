@@ -10,8 +10,9 @@
     padding: 10px 20px 10px 40px;
     display: flex;
     justify-content: space-between;
-    // border: 2px solid red;
     text-align: center;
+    z-index: 1000;
+    background-color: white;
 
 
     .logo{
@@ -56,14 +57,25 @@
 
   .about {
     height: 150vh;
-    background-image: url("https://cutewallpaper.org/21/hd-wallpaper-for-computer-screen/Wallpaper-Computer-HD-Wallpapers-For-Mobile-D-uamp-K-.jpg");
-  }
-  .destinations {
-  }
-  .experiences {
-  }
-  .travelStyles {
-  }
-  .contact {
-  }
+    // background-image: url("https://cutewallpaper.org/21/hd-wallpaper-for-computer-screen/Wallpaper-Computer-HD-Wallpapers-For-Mobile-D-uamp-K-.jpg");
+    position: relative; 
+    overflow: hidden; 
+    background:
+    linear-gradient(180deg, rgba(123,137,152,0.02573529411764708) 0%, rgba(241,242,244,0.34506302521008403) 89%, rgba(255,255,255,0.9360994397759104) 100%),
+    url("https://wallpaperaccess.com/full/1149949.jpg");
 }
+
+.destinations {
+}
+.experiences {
+}
+.travelStyles {
+}
+.contact {
+}
+
+
+ }
+
+
+
