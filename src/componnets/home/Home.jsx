@@ -50,7 +50,13 @@ function Home() {
           <TravelStyles />
         </div>
         <div ref={sectionRefs.contact} className="section contact">
-          <Contact />
+          <div className='formContainer'><Contact /></div>
+        
+          <div className='footer'>
+            <div className='logo'>
+            <img src='https://cdn.sriggle.tech/kantents/production/23/122/03/11eb9c22-3258-4871-ba0c-06e9dec65dd5.png'  alt='logo'/>
+            </div>
+          </div>
         </div>
       </div>
     );

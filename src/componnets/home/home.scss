@@ -14,11 +14,10 @@
     z-index: 1000;
     background-color: white;
 
-
-    .logo{
-        img {
-            height: 60px;
-        }
+    .logo {
+      img {
+        height: 60px;
+      }
     }
     .navList {
       display: flex;
@@ -36,20 +35,19 @@
         border-radius: 20px;
 
         &:hover {
-            background-color: rgba(255, 207, 39, 0.65);
-          }
+          background-color: rgba(255, 207, 39, 0.65);
+        }
       }
     }
   }
 
   .section {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     background-color: #f0f0f0;
-    min-height: 100vh;
+    min-height: 50vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,25 +55,82 @@
 
   .about {
     height: 150vh;
-    // background-image: url("https://cutewallpaper.org/21/hd-wallpaper-for-computer-screen/Wallpaper-Computer-HD-Wallpapers-For-Mobile-D-uamp-K-.jpg");
-    position: relative; 
-    overflow: hidden; 
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(
+        180deg,
+        rgba(123, 137, 152, 0.02573529411764708) 0%,
+        rgba(241, 242, 244, 0.34506302521008403) 89%,
+        rgba(255, 255, 255, 0.9360994397759104) 100%
+      ),
+      url("https://wallpaperaccess.com/full/1149949.jpg");
+  
+  }
+
+  .destinations {
+    height: 80vh;
+   
+    display: flex;
+  }
+  .experiences {
+    height: 80vh;
     background:
-    linear-gradient(180deg, rgba(123,137,152,0.02573529411764708) 0%, rgba(241,242,244,0.34506302521008403) 89%, rgba(255,255,255,0.9360994397759104) 100%),
-    url("https://wallpaperaccess.com/full/1149949.jpg");
+    linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.8360994397759104) 0%,       
+        rgba(241, 242, 244, 0.64506302521008403) 25%,
+        rgba(123, 137, 152, 0.02573529411764708) 100%
+      ),
+    url("https://getwallpapers.com/wallpaper/full/5/d/6/1487917-winter-mountain-desktop-wallpaper-1920x1080-download.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+
+  }
+  .travelStyles {
+    height: 80vh;
+    background:
+    url("https://w0.peakpx.com/wallpaper/1013/706/HD-wallpaper-of-white-commercial-airplane-flying-in-sky-under-white-clouds.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+  }
+  .contact {
+    min-height: 500px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 20px;
+    background:
+    url("https://c4.wallpaperflare.com/wallpaper/498/506/453/eiffel-tower-drawing-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+
+    .formContainer{
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      width: 100%;
+      padding-right: 200px;
+    }
+
+    .footer {
+      background-color: rgb(183, 183, 183);
+      width: 100%;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .logo {
+        img {
+          height: 60px;
+        }
+      }
+    }
+  }
 }
-
-.destinations {
-}
-.experiences {
-}
-.travelStyles {
-}
-.contact {
-}
-
-
- }
-
-
-
