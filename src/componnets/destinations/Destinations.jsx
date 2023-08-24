@@ -1,8 +1,14 @@
 import React from 'react'
 import "./destinations.scss"
+import CardRow from './CardRow'
+import DestinationRow from './DestinationRow'
+
 const Destinations = () => {
   return (
-    <div>Destinations</div>
+    <div className='destinationContainer'>
+      <CardRow />
+      <DestinationRow />
+    </div>
   )
 }
 

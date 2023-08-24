@@ -1,7 +1,7 @@
 import React from 'react';
 import './videoCard.scss';
 
-const VideoCard = ({src}) => {
+const VideoCard = ({title ,src}) => {
   return (
     <div className="card">
       <video autoPlay muted loop className="video">
@@ -9,7 +9,7 @@ const VideoCard = ({src}) => {
         Your browser does not support the video tag.
       </video>
       <div className="card-content">
-        <p>BLOG TITLE</p>
+        <p>{title}</p>
       </div>
     </div>
   );

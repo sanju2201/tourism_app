@@ -1,0 +1,11 @@
+.container{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+
+    .videoCardContainer{
+        display: flex;
+        gap: 50px;
+        align-items: end;
+    }
+}

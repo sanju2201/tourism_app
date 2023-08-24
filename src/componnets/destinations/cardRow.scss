@@ -1,0 +1,15 @@
+.card-row {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+    height: 50%;
+    gap: 20px;
+  }
+  
+  .card-connector {
+    width: 50px;
+    height: 2px;
+    background-color: #520202;
+    margin: 0 8px;
+  }
+  

@@ -1,0 +1,39 @@
+.imgaeCardContainer{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .card {
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 250px;
+    margin: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .card-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+      
+     
+  }
+  .cardTitle {
+    margin: 8px 0;
+    font-size: 1.25rem;
+  }
+  
+  .cardContent {
+    margin-top: 8px;
+    font-size: 1rem;
+  }
+  
+ 
+
+}
+  

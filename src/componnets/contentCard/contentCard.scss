@@ -1,5 +1,94 @@
 .contentCard{
     height: 500px;
     width: 500px;
-    background-color: yellow;
+    // background-color: yellow;
+    display: flex;
+
+    .cardLeft{
+        display: flex;
+        width: 40%;
+
+        .number{
+            font-size: 10rem;
+            font-style: italic;
+            font-family: "emoji";
+            color: orange;
+
+        }
+    }
+    .cardRight{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        gap: 20px;
+        padding-top: 50px;
+
+         .title{
+           font-size: 2.5rem;
+           font-family: "emoji";
+           padding-bottom: 40px;
+         }
+
+         hr{
+            width: 50px;
+            color: orange;
+            background-color: orange;
+            border: 1px solid orange;
+         }
+
+         .description{
+            font-size: 1rem;
+            text-align: left;
+
+         }
+         .button{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+
+
+            .bookmark{
+                border: 3px solid orange;
+                padding: 5px;
+                height: 50px;
+                width: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+
+                .icon{
+                    color: orange;
+                    scale: 1.25;
+                }
+                &:hover{
+                    background-color: orange;
+                    color: white;
+                    cursor: pointer;
+                    .icon{
+                        color: white;
+                    }
+
+             }
+
+            }
+
+            .showmore{
+                font-size: 1.25rem;
+                border: 3px solid orange;
+                padding: 8px 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                &:hover{
+                    background-color: orange;
+                    color: white;
+                    cursor: pointer;
+
+             }
+            }
+         }
+    }
 }

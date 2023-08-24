@@ -19,10 +19,10 @@ const About = () => {
         </div>
         </div>
         <div  className='bottomRight'>
-          <VideoCard src={"https://player.vimeo.com/progressive_redirect/playback/825329750/rendition/540p/file.mp4?loc=external&oauth2_token_id=57447761&signature=b69360c7aafbb5711cfdb2e2b82d45a5054ef41b7791c875c61e9c9e16d2bf29"}/>
-          <VideoCard src={"https://player.vimeo.com/external/559880023.sd.mp4?s=7445cd904634755802174ff794f2098ad80967f1&profile_id=165&oauth2_token_id=57447761"}/>
-          <VideoCard src={"https://player.vimeo.com/progressive_redirect/playback/704843127/rendition/540p?loc=external&oauth2_token_id=57447761&signature=3ea8745f5f220a09c67eede1a8b1442b7dd231989c6caf61405494a25f536839"}/>
-          <VideoCard src={"https://player.vimeo.com/progressive_redirect/playback/798204134/rendition/540p/file.mp4?loc=external&oauth2_token_id=57447761&signature=bfb3467730b2657679a5dc79d2342e39ace903aeb053be77272d044d16960b7d"}/>
+          <VideoCard title={"HONG KONG"} src={"https://player.vimeo.com/progressive_redirect/playback/825329750/rendition/540p/file.mp4?loc=external&oauth2_token_id=57447761&signature=b69360c7aafbb5711cfdb2e2b82d45a5054ef41b7791c875c61e9c9e16d2bf29"}/>
+          <VideoCard title={"NORWAY"} src={"https://player.vimeo.com/external/559880023.sd.mp4?s=7445cd904634755802174ff794f2098ad80967f1&profile_id=165&oauth2_token_id=57447761"}/>
+          <VideoCard title={"BELARUS"} src={"https://player.vimeo.com/progressive_redirect/playback/704843127/rendition/540p?loc=external&oauth2_token_id=57447761&signature=3ea8745f5f220a09c67eede1a8b1442b7dd231989c6caf61405494a25f536839"}/>
+          <VideoCard title={"BAHRAIN"} src={"https://player.vimeo.com/progressive_redirect/playback/798204134/rendition/540p/file.mp4?loc=external&oauth2_token_id=57447761&signature=bfb3467730b2657679a5dc79d2342e39ace903aeb053be77272d044d16960b7d"}/>
 
 
         </div>
